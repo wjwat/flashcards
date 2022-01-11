@@ -1,0 +1,11 @@
+.card-deck {
+	display: flex;
+	max-width: 60rem;
+  margin: 3rem auto;
+	flex-wrap: wrap;
+}
+
+.card {
+	min-width: 19rem;
+	margin: 5px;
+}
