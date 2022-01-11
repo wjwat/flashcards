@@ -1,3 +1,7 @@
+body {
+	background-color: #d8dee9;
+}
+
 .card-deck {
 	display: flex;
 	max-width: 60rem;
@@ -7,7 +11,21 @@
 
 .card {
 	min-width: 19rem;
+	max-width: 19rem;
 	margin: 5px;
+	background-color: #4c566a;
+}
+
+.card-new-bg {
+	border: red 5px solid;
+}
+
+.card-title {
+	color: #ebcb8b;
+}
+
+.card-text {
+	color: #e5e9f0;
 }
 
 .our-def {
